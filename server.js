@@ -23,7 +23,7 @@ app.use(morgan("dev"));
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(cors());
-app.use("/api", labRouter);
+app.use("/api/", labRouter);
 
 
 //connecting to the db

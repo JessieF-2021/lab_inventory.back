@@ -28,7 +28,7 @@ required: true
     required: true
   },
 
-  labPrice: {
+ labPrice: {
     type: Number,
     required: true
   }
