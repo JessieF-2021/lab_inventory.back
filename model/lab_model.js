@@ -11,6 +11,7 @@ const labSchema = new Schema({
   labType: {
     type: String,
     required: true,
+    enum: ['radiology', 'laboratory']
   },
 
   mainCategory: {
