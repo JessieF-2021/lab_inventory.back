@@ -21,7 +21,6 @@ required: true
 
   subCategory: {
     type: String,
-    required: true
   },
 
   labCode: {
